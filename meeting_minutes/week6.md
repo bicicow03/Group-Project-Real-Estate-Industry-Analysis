@@ -36,6 +36,12 @@ Minutes: September 1st, 2pm
 * Stanislaw Zaranski: Anyday
 * Zhi Jian Damyan Ang: Not week 6
 
+**Decisions and next steps:**
+
+* Find suitable potential features and external datasets
+* Begun scraping
+* Find victoria shape file of suburbs
+
 **Signed on September 1st:**
 
 * Bike Pham
