@@ -35,7 +35,7 @@ We will each work on cleaning and exploring the following external datasets:
 * Remove unecessary features not relevant to our analysis
 * Figure out how to integrate external datasets with the realestate dataset once it is proivded.
 
-**Signed on September 1st:**
+**Signed on September 8th:**
 
 * Bike Pham
 * Du-Simon Nguyen
