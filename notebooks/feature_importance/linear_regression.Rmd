@@ -1,0 +1,78 @@
+---
+title: "MAST30034 Project 2"
+output: html_document
+date: "2025-09-20"
+---
+
+```{r}
+data = read.csv("data/curated/cleaned_real_estate_data.csv")
+
+# Remove available date as already have converted in factors, bond is data leakage, as it is extremely correlated with rent
+data$available_date <- NULL
+data$bond <- NULL
+
+factor_cols <- c(
+  "property_type",
+  "agency",
+  "available_day",
+  "available_month",
+  "available_year"
+)
+
+data[factor_cols] <- lapply(data[factor_cols], as.factor)
+data$agency <- NULL # >1000 levels 
+```
+
+Linear regression models
+```{r}
+lr <- lm(weekly_rent ~ ., data = data)
+log_y <- lm(log(weekly_rent) ~ ., data = data)
+```
+
+```{r}
+par(mfrow = c(2, 2))
+plot(lr)
+par(mfrow = c(2, 2))
+plot(log_y)
+```
+
+Use plain
+```{r}
+summary(lr)
+```
+```{r}
+anova(lr)
+```
+
+Feature selection
+```{r}
+step_lr <- step(lr, direction = "backward", k = log(nrow(data)))
+summary(step_lr)
+```
+```{r}
+summary(step_lr)
+anova(step_lr)
+```
+
+
+```{r}
+par(mfrow = c(2, 2))  # 2x2 panel
+plot(step_lr)
+```
+L1 (LASSO) regression
+```{r}
+library(glmnet)
+
+x <- model.matrix(weekly_rent ~ ., data)[, -1]  # predictors
+y <- data$weekly_rent
+
+# LASSO with cross-validation
+lasso <- cv.glmnet(x, y, alpha = 1)
+coef(lasso, s = "lambda.min")
+```
+```{r}
+anova(lasso)
+```
+
+
+
