@@ -1,43 +1,43 @@
 Feature,Importance(%) for Prediction
-bathrooms,21.99
-Bachelor (%),17.3
-bedrooms,13.32
-days_listed,3.6
-num_metro_bus_stops,2.58
-Median_tot_prsnl_inc_weekly,2.53
-Median_tot_fam_inc_weekly,2.51
-num_metro_tram_stops,2.25
-agency,2.12
-Graduate_diploma_certificate(%),2.12
-postcode,1.94
-carspaces,1.85
-population_est,1.73
-day_cos,1.71
-day_sin,1.66
-num_schools_2km,1.59
-Advanced_&_Diploma (%),1.38
-month_sin,1.31
-Certificate_level (%),1.22
-num_metro_train_stops,1.1
-property_type,1.1
-Mortgage (%),1.09
-Total rented (%),1.06
-month_cos,1.02
+bathrooms,21.96
+Bachelor (%),16.2
+bedrooms,13.21
+days_listed,3.66
+Median_tot_fam_inc_weekly,2.91
+Median_tot_prsnl_inc_weekly,2.73
+num_metro_bus_stops,2.56
+num_metro_tram_stops,2.55
+agency,2.16
+postcode,2.13
+Graduate_diploma_certificate(%),2.08
+carspaces,1.83
+day_sin,1.78
+population_est,1.75
+num_schools_2km,1.65
+day_cos,1.61
+Advanced_&_Diploma (%),1.35
+month_sin,1.35
+Certificate_level (%),1.15
+Total rented (%),1.09
+property_type,1.07
+num_metro_train_stops,1.07
+Mortgage (%),1.01
+month_cos,0.99
 Unemployment,0.99
-Population-2023,0.91
-Average_household_size,0.87
-Total_persons,0.85
-Other tenure (%),0.82
-post_gradutae (%),0.72
-num_regional_bus_stops,0.69
-Owner occupied (%),0.68
-Median_age_persons,0.67
-Median_tot_hhd_inc_weekly,0.59
-crime_rank,0.43
-incidents_recorded,0.4
-crime_per_person,0.36
-rate_per_100000_population,0.31
-crime_index,0.3
-num_regional_train_stops,0.23
-Average_num_psns_per_bedroom,0.08
+Total_persons,0.92
+Average_household_size,0.9
+Population-2023,0.89
+Owner occupied (%),0.79
+num_regional_bus_stops,0.77
+post_gradutae (%),0.73
+Median_tot_hhd_inc_weekly,0.68
+Median_age_persons,0.66
+Other tenure (%),0.66
+incidents_recorded,0.44
+crime_rank,0.41
+crime_index,0.36
+rate_per_100000_population,0.33
+crime_per_person,0.3
+num_regional_train_stops,0.22
+Average_num_psns_per_bedroom,0.1
 available_year,0.0

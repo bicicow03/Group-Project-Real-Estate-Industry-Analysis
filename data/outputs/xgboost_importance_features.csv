@@ -1,43 +1,43 @@
 Feature,Importance(%) for Prediction
 bathrooms,26.63
 bedrooms,20.99
-Bachelor (%),14.33
-Median_tot_fam_inc_weekly,8.51
-Certificate_level (%),3.07
+Bachelor (%),14.36
+Median_tot_fam_inc_weekly,8.52
+Certificate_level (%),3.06
 Median_tot_prsnl_inc_weekly,2.65
 Graduate_diploma_certificate(%),2.46
-population_est,2.31
 num_metro_tram_stops,2.27
-carspaces,1.97
+population_est,2.18
+carspaces,1.93
+days_listed,1.91
 Mortgage (%),1.87
-days_listed,1.86
-Median_age_persons,1.6
+Median_age_persons,1.7
+postcode,0.89
 num_regional_bus_stops,0.87
-postcode,0.84
-Average_household_size,0.76
-Other tenure (%),0.74
+Other tenure (%),0.72
+Average_household_size,0.68
 Total rented (%),0.62
 Unemployment,0.57
-num_metro_bus_stops,0.56
-Advanced_&_Diploma (%),0.56
 property_type,0.55
+num_metro_bus_stops,0.53
+Advanced_&_Diploma (%),0.45
+Population-2023,0.44
 month_sin,0.38
-Population-2023,0.36
 num_metro_train_stops,0.36
+agency,0.34
 num_schools_2km,0.34
 Median_tot_hhd_inc_weekly,0.27
 Total_persons,0.25
-Owner occupied (%),0.2
-month_cos,0.2
-post_gradutae (%),0.17
-agency,0.17
-rate_per_100000_population,0.15
+rate_per_100000_population,0.2
+Owner occupied (%),0.19
+day_sin,0.17
+month_cos,0.16
 crime_rank,0.14
 num_regional_train_stops,0.1
-day_sin,0.1
-day_cos,0.08
-crime_per_person,0.06
+post_gradutae (%),0.09
+day_cos,0.07
 Average_num_psns_per_bedroom,0.04
-incidents_recorded,0.03
+incidents_recorded,0.04
 crime_index,0.01
+crime_per_person,0.0
 available_year,0.0
