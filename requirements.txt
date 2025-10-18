@@ -2,3 +2,12 @@ requests
 bs4
 pandas
 numpy
+matplotlib
+pmdarima
+scikit-learn
+xgboost
+scipy
+folium
+contextily
+geopandas
+seaborn
