@@ -26,7 +26,7 @@ To reproduce results run the /notebooks folders in the following order:
 3. `/feature_importance`
 4. `/EDA`
 5. `/visualisation`
-6. The remaining files not in folders to get summary outputs, graphs, etc
+6. The remaining notebooks not in folders to get summary outputs, graphs, etc
 
 
 
