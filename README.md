@@ -19,8 +19,14 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run notebooks in order:
+To reproduce results run the /notebooks folders in the following order:
 
+1. `/data_loading`
+2. `/preprocessing`
+3. `/feature_importance`
+4. `/EDA`
+5. `/visualisation`
+6. The remaining files not in folders to get summary outputs, graphs, etc
 
 
 
